@@ -2,38 +2,28 @@
 :root{
 	background-color:rgb(135, 206, 235);
 }
-p:first-child{
+p:first-child {
 	color:white;
 	background-color:black;
 }
-p:nth-child(2)
-{color:blue;
-}
-p:last-child
-{color:red;
-}
-li:nth-child(odd){
-	background-color:white;
-}
-li:nth-child(even){
-	background-color:gray;;
-}
-li:nth-child(3)
-{
-	background-color:pink;
-}
-li:nth-child(1),li:last-child
-{
-	font-size:22px;
-}
-li:nth-child(3),li:last-child
-{
-	background-color:pink;
+p:last-child{
+	color:red;
 }
 #list{
 	width:50%;
 	padding:10px;
 }
-
-
-
+li:nth-child(odd){
+	background-color:white;
+	font-size:22px;
+	
+}
+li:nth-child(even){
+	background-color:gray;
+	
+}
+li:nth-child(3){
+	background-color:pink;
+	font-size:15px;
+	
+}
